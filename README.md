@@ -50,8 +50,8 @@ Anime_Quote_App/
 Clone this repo and get started instantly:
 
 ```bash
-git clone https://github.com/yourusername/Anime_Quote_App.git
-cd Anime_Quote_App
+git clone https://github.com/Dhruvi-tech/Brainwave_Matrix_Intern.git
+cd Brainwave_Matrix_Intern
 
 # Create a virtual environment (optional)
 python -m venv venv
