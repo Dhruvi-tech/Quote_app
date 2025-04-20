@@ -1,3 +1,4 @@
+![Project Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 <h1 align="center">
   🌸  Quote App 🎌
@@ -44,7 +45,19 @@ Anime_Quote_App/
 ```
 
 ---
+## 📊 Tech Stack Breakdown
 
+### Usage of Technologies:
+
+| Technology  | Percentage | Visual Representation |
+|-------------|------------|-----------------------|
+| **Python**  | 65.3%      | ![Python](https://img.shields.io/badge/Python-65.3%25-blue?logo=python) |
+| **CSS**     | 17.6%      | ![CSS](https://img.shields.io/badge/CSS-17.6%25-blueviolet?logo=css3) |
+| **HTML**    | 10.0%      | ![HTML](https://img.shields.io/badge/HTML-10%25-orange?logo=html5) |
+| **JavaScript** | 5.9%     | ![JavaScript](https://img.shields.io/badge/JavaScript-5.9%25-yellow?logo=javascript) |
+| **Dockerfile** | 1.2%     | ![Dockerfile](https://img.shields.io/badge/Dockerfile-1.2%25-grey?logo=docker) |
+
+---
 ## 💻 Run Locally
 
 Clone this repo and get started instantly:
