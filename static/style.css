@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(120deg,
+    #FFE4E1, #FFF0F5, #F0FFF0, #B0E0E6, #E0FFFF, #F5FFFA, #F0F8FF,
+    #FFDAB9, #FAF0E6, #FDF5E6, #FFB6B9, #BC8F8F, #D8BFD8, #DA70D6,
+    #DDA0DD, #DB7093, #F08080, #FF91A4, #F7E7CE, #FADADD, #CCCCFF,
+    #87CEEB, #5F9EA0, #AFEEEE, #7B68EE, #708090, #AFCBFF, #AAF0D1,
+    #B0C4DE, #73A9C2, #FFF5EE, #F0FFFF, #E6E6FA, #FFB6C1, #FAFAD2,
+    #FFE4B5, #F5F5DC, #FFF8DC, #FFFAFA, #FFEFD5, #FFFFF0, #FFDEAD,
+    #FAEBD7, #F8F8FF, #FFFAF0, #89CFF0, #DCAE96, #E5E0FF, #F3E5AB,
+    #C8A2C8);
+  background-size: 3000% 3000%;
+  animation: pastelShift 60s ease infinite;
+  color: #4A4A4A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@keyframes pastelShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#app {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  animation: floaty 3s ease-in-out infinite;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+h1 {
+  color: #DB7093;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: #FFB6C1;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+select:hover, button:hover {
+  background-color: #FF91A4;
+  transform: scale(1.05);
+}
+
+#quote-box {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #5F4B8B;
+}
