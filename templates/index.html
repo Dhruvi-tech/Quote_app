@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🌸 Cute Quote App 🌸</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="app">
+    <h1>Choose Your Vibe</h1>
+    
+    <select id="category">
+      <option value="motivational">Motivational</option>
+      <option value="romantic">Romantic</option>
+      <option value="sad">Sad</option>
+    </select>
+
+    <button onclick="loadQuote()">✨ Show me a quote ✨</button>
+
+    <div id="quote-box">
+      <p id="quote">🌈 Let the magic begin 🌈</p>
+    </div>
+  </div>
+
+  <script>
+    async function loadQuote() {
+      const category = document.getElementById("category").value;
+      const response = await fetch("/get_quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ category })
+      });
+      const data = await response.json();
+      document.getElementById("quote").textContent = data.quote;
+    }
+  </script>
+</body>
+</html>
