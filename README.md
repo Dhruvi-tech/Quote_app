@@ -64,10 +64,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-🌐 Open `http://localhost:5000` in your browser to experience it!
-
----
-
 ## 🐳 Docker Support
 
 Build and run with Docker in two simple steps:
