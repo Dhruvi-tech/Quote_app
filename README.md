@@ -3,7 +3,7 @@
 ![Live on Render](https://img.shields.io/badge/Deployed%20on-Render-3c7dd9?logo=render&logoColor=white)
 
 <h1 align="center">
-  🌸 Quote App 🎌
+  🌸 Quote App 🌸
 </h1>
 
 <p align="center">
