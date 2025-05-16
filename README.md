@@ -15,6 +15,19 @@
 </p>
 
 ---
+---
+
+## 🌟 Contributors
+
+Thanks to these wonderful people for helping make firebase-chat-app better!
+
+<a href="https://github.com/Dhruvi-tech/firebase-chat-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Dhruvi-tech/firebase-chat-app" alt="Contributors"/>
+</a>
+
+If you contributed and don’t see your avatar, please make at least one commit or open a pull request!
+
+---
 
 ## 🌟 Features
 
