@@ -2,7 +2,6 @@ function setRandomBackground() {
     const bgIndex = Math.floor(Math.random() * 59) + 1;
     document.body.style.backgroundImage = `url('static/backgrounds/bg1 (${bgIndex}).jpg')`;
 }
-
 window.onload = function () {
     setRandomBackground();
 
