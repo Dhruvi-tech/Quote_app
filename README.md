@@ -80,8 +80,8 @@ Anime_Quote_App/
 ## 💻 Run Locally
 
 ```bash
-git clone https://github.com/Dhruvi-tech/Brainwave_Matrix_Intern.git
-cd Brainwave_Matrix_Intern
+git clone https://github.com/Dhruvi-tech/Quote_app.git
+cd Quote_app
 
 # (Optional) Create a virtual environment
 python -m venv venv
